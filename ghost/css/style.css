@@ -1,0 +1,175 @@
+.nav > li > a{
+	font: bold 16px Syncopate;
+	background: #88302b none repeat-x scroll 0;
+}
+.nav-list > .active > a,
+.nav-list > .active > a:hover {
+	background: #88302b;
+	margin-left:30px;
+}
+ body {
+	background-color: rgb(27, 10, 10) !important;
+	text-align: center;
+}
+
+.masthead{
+	text-align: center;
+}
+
+.menu {
+    text-align: center;
+}
+.menu ul {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/*For IE, the outcast */
+	zoom:1;
+	*display: inline;
+	
+  }
+ 
+.menu li {
+	/*float: left;*/
+	padding: 5px 14px;
+	border: 1px solid black;
+	font: bold 16px Syncopate;
+	border-radius: 5px;
+	background-color: rgb(68, 31, 31);
+}
+.menu  > ul > li > a {
+	color: rgb(176, 190, 197);
+}
+
+.menu ul li{
+	display:inherit !important;
+	
+}
+
+.niveau1{display: none !important;}
+li:hover ul.niveau1 {display:block !important;position: absolute;}
+
+.active 
+ {
+ color: #ffffff;
+ background-color: rgb(189, 98, 69) !important;
+}
+
+div.row-fluid{
+	width: 1070px;
+    margin: 0 auto;
+    text-align: left;
+	padding-top: 50px;
+}
+.span8{
+	background-color:rgb(68, 31, 31);
+	color: white;
+	padding: 10px;
+}
+
+.span4{
+	color: white;
+	padding: 10px;
+}
+
+#date_create{
+	border-bottom: 1px solid;
+	margin-bottom: 10px;
+	color: rgb(189, 189, 63);
+	margin-right:20px;
+}
+
+#tab_video > tbody > tr > td{
+	padding-left:30px;
+}
+#subtitle{
+	text-align:center;
+	font: 18px Arvo;
+	color: #CCAA5B;
+	padding: 15px;
+}
+
+#title-lyrics1{
+	text-align:center;
+	color: #0B5394;
+	font-size:18px;
+	padding:15px;
+}
+#title-lyrics1 > a{
+	color: #659DCF;
+}
+
+#title-lyrics2{
+	text-align:center;
+	color: #FFA500;
+	font-size:18px;
+	padding:15px;
+	margin-top:15px;
+}
+#lyrics-infest{
+
+	color: #FFA500;
+	font-size:16px;
+	padding:25px;
+	text-indent:	
+}
+
+#lyrics-opus{
+
+	color: #0B5394;
+	font-size:16px;
+	padding:25px;
+}
+#lyrics-opus > a{
+	color: #659DCF;
+}
+#video{
+	margin-left:20px;
+	padding:10px;
+	margin:10px;
+	max-width: 100%;
+}
+#titleIntw{
+	margin-top:15px;
+	font-family: "cardinalregular", Arial, sans-serif;
+}
+iframe{
+	padding-top:15px;
+}
+#titlelive{
+	font-family: "cardinalregular", Arial, sans-serif;
+	text-align:center;
+}
+#multiline_tab{
+font-family: "cardinalregular", Arial, sans-serif;
+	text-align:center;
+}
+
+.b-left{
+	text-align:center;
+}
+
+#iw_question{
+	font-style: italic;
+}
+
+#iw_answer{
+	margin-left:15px;
+}
+.interview{
+	color:white;
+	background-color:black;
+	text-align: justify;
+}
+#scriptum-text{
+	margin:15px;
+}
+#scriptum-tab{
+	margin-right:20px;
+	
+}
+
+#scriptum-tab > tbody > tr > td{
+	padding-left:30px;
+}
